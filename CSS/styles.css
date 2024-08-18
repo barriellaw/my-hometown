@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#719269, #b3f2f7);
+}
+
+img {
+    width: 100px;
+
+}
+#hero {
+    background-image: url(./../Images/Main-Shul.jpg);
+    margin: 20px auto 20px auto;
+    width: 449px;
+    height: 214px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#hero h1, #hero h2 {
+    color: #2c2c2c;
+
+}
