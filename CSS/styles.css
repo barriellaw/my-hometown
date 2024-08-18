@@ -1,8 +1,33 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
 body {
     margin: 0;
     text-align: center;
-    background: linear-gradient(#719269 0%, #95b07b 50%, #b3f2f7 100%);
+    background: linear-gradient(#9a8eb1 0%, #acd8e9 50%, #b3f2f7 100%);
     background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2C2C2C;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 img {
@@ -16,12 +41,40 @@ img {
     height: 214px;
     border: 2px solid black;
     border-radius: 50px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-#hero h1, #hero h2 {
-    color: #2c2c2c;
-
+#title {
+    text-shadow: 0 0 1px rgb(8, 131, 19);
+    background: #3196d1;
+    padding: 1px 1px;
+    border-radius: 50px;
+    margin: 10px 100px 0 100px;
 }
 
+.highlights {
+    display: inline;
+    justify-content: space-around;
+    border-radius: 50px;
+    width: 70px;
+    height: 50px;
+    margin: 0 60px 10px 0;
+}
+
+#frida {
+    background: #d4cfe7;
+}
+
+.card {
+    width:400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #A8DADC;
+}
+
+/** background: #d4cfe7; 
+    background: #A8DADC;/*
