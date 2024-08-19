@@ -34,9 +34,20 @@ img {
     width: 100px;
 
 }
+
+#title {
+    display: inline-block;
+    text-shadow: 0 0 1px rgb(8, 131, 19);
+    background: #3196d1;
+    padding: 8px 8px;
+    border-radius: 50px;
+    margin: 50px auto 10px auto;
+    border: 2px solid #970b0b;
+}
+
 #hero {
     background-image: url(./../Images/Main-Shul.jpg);
-    margin: 100px auto 20px auto;
+    margin: 20px auto 20px auto;
     width: 449px;
     height: 214px;
     border: 2px solid black;
@@ -45,25 +56,27 @@ img {
     background-repeat: no-repeat;
 }
 
-#title {
-    text-shadow: 0 0 1px rgb(8, 131, 19);
-    background: #3196d1;
-    padding: 1px 1px;
-    border-radius: 50px;
-    margin: 10px 100px 0 100px;
+.highlights {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px 10px 0;
 }
 
-.highlights {
-    display: inline;
-    justify-content: space-around;
+.highlight-item img {
+    width: 90px;
+    height: 80px;
     border-radius: 50px;
-    width: 70px;
-    height: 50px;
-    margin: 0 60px 10px 0;
+    border: 2px solid black;
+}
+
+.highlight-item {
+    text-align: center;
+    margin: 0 10px;
 }
 
 #frida {
     background: #d4cfe7;
+    
 }
 
 .card {
@@ -74,6 +87,7 @@ img {
     padding: 20px;
     text-align: center;
     background: #A8DADC;
+    border: 2px solid black;
 }
 
 /** background: #d4cfe7; 

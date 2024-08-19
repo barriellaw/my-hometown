@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Stage, Commit, and Push",
+            "type": "shell",
+            "command": "git",
+            "args": [
+                "add", ".",
+                "&&",
+                "git", "commit", "-m", "Updated index.html with new content",
+                "&&",
+                "git", "push", "origin", "master"
+            ],
+            "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/c"]
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Custom task to stage, commit, and push changes."
+        }
+    ]
+}
